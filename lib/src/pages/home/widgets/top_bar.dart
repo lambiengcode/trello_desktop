@@ -43,22 +43,22 @@ class _TopBarState extends State<TopBar> {
                 color: fCL,
                 size: _size.height / 44.0,
               ),
-              SizedBox(width: 16.0),
+              SizedBox(width: 24.0),
               Icon(
                 Feather.bell,
-                color: colorTitle,
+                color: colorBlack,
                 size: _size.height / 44.0,
               ),
-              SizedBox(width: 16.0),
+              SizedBox(width: 24.0),
               Text(
                 'lambiengcode',
                 style: TextStyle(
-                  color: colorTitle,
+                  color: colorBlack,
                   fontSize: _size.height / 48.0,
                   fontWeight: FontWeight.w400,
                 ),
               ),
-              SizedBox(width: 16.0),
+              SizedBox(width: 24.0),
               Container(
                 height: _size.height / 24.0,
                 width: _size.height / 24.0,
