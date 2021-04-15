@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_desktop_trello/src/pages/home/widgets/side_bar.dart';
+import 'package:flutter_desktop_trello/src/pages/home/widgets/top_bar.dart';
 import 'package:flutter_desktop_trello/src/public/styles.dart';
 
 class HomePage extends StatefulWidget {
@@ -29,7 +30,13 @@ class _HomePageState extends State<HomePage> {
             ),
             Expanded(
               flex: 4,
-              child: Container(),
+              child: Column(
+                children: [
+                  SizedBox(height: _size.height / 30.0),
+                  TopBar(),
+                  SizedBox(height: _size.height / 20.0),
+                ],
+              ),
             ),
           ],
         ),
